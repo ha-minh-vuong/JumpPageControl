@@ -58,7 +58,7 @@
     [self.view addConstraints:constraints];
     _pageControl.numberOfPages = _scrollView.colors.count;
     [_pageControl addTarget:self action:@selector(handlePageControl:) forControlEvents:UIControlEventValueChanged];
-    [_pageControl registerTapOnIndicator];
+    [_pageControl vgRegisterTapOnIndicator];
 }
 
 - (void)orientationChanged:(NSNotification *)notification

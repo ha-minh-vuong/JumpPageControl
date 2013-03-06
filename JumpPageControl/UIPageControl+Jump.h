@@ -10,6 +10,6 @@
 
 @interface UIPageControl (Jump)
 
-- (void)registerTapOnIndicator;
+- (void)vgRegisterTapOnIndicator;
 
 @end

@@ -10,7 +10,7 @@
 
 @implementation UIPageControl (Jump)
 
-- (void)registerTapOnIndicator
+- (void)vgRegisterTapOnIndicator
 {
     NSArray *subviews = self.subviews;
     for (UIView *view in subviews) {
